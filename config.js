@@ -145,6 +145,7 @@ module.exports = {
         enabled: true,
         origin: 'https://mathiasvigouroux.github.io' // Allow requests from your GitHub Pages domain
     },
+    githubToken: process.env.GITHUB_TOKEN, // Ensure this is properly set
     config,
     schema
 };
