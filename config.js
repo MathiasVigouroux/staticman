@@ -140,5 +140,11 @@ try {
 
 }
 
-module.exports = config
-module.exports.schema = schema
+module.exports = {
+    cors: {
+        enabled: true,
+        origin: 'https://mathiasvigouroux.github.io' // Allow requests from your GitHub Pages domain
+    },
+    config,
+    schema
+};
